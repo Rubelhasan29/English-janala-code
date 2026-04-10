@@ -1,116 +1,55 @@
-# ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+#Project Name:-  ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+
+
+## Overview
+English Janala is an interactive English vocabulary learning web application designed to help users learn words in a simple and structured way. Users can explore different lessons and view vocabulary in a clean card-based layout, making the learning process easy and organized.
+
+Each vocabulary card displays the word along with its meaning and pronunciation. For deeper understanding, users can click the info icon to open a modal that shows additional details such as example sentences and synonyms. This helps learners not only understand the word but also how to use it in real-life context.
+
+The application focuses on providing a smooth, beginner-friendly experience with a clean UI and interactive features, making vocabulary learning more engaging and effective.
+
+
+## Features
+Key Features
+Lesson-based vocabulary system
+Click on lessons to view specific vocabularies
+Clean card layout for each word
+Info icon opens modal with extra details
+Includes meaning, example, and synonyms
+Smooth and user-friendly interaction
+Responsive design for all devices
+Empty state message when no data is available
+ 
+
+
+## ⚙️ Tech Stack
+
+React.js
+JavaScript (ES6)
+Tailwind CSS
+DaisyUI
+Vercel (Deployment)
+
+
+## Dependencies
+
+- Tailwind CSS  
+- DaisyUI  
 
 ---
 
-## ⚡ API Endpoints
+## Getting Started
 
-1. Get ⚡ All Levels
+### Prerequisites
+Make sure you have a modern web browser installed.
 
-```bash
-https://openapi.programming-hero.com/api/levels/all
-```
+### Installation
 
-1. Get ⚡ Words by Levels <br/>
-   https:// openapi.programming-hero.com/api/level/{id}
+Follow these steps to set up the project locally:
 
-```bash
-https://openapi.programming-hero.com/api/level/5
-```
+1. Clone the repository:
+``bash
+git clone past the link(https:// ------)
 
-1. Get ⚡ Words Detail <br/>
-   https:// openapi.programming-hero.com/api/word/{id}
 
-```bash
-https://openapi.programming-hero.com/api/word/5
-```
-
-1. Get ⚡ All Words <br/>
-
-```bash
-https://openapi.programming-hero.com/api/words/all
-```
-
-# Work To do
-
-### 1. Show Levels on The UI
-
-- [ ] Show a center-aligned heading as Figma
-
----
-
-- [ ] Create dynamically generated buttons from **API-01** for each lesson
-- [ ] Lesson Buttons will be displayed on page load
-
----
-
-### 2. Show Word Cards Based on Level
-
-- [ ] Show a default text that will be displayed in the Vocabulary section initially
-- [ ] on Clicking a Specific Lesson Button Load All the words from **API-02**
-- [ ] Display all words for a selected lesson in a card format, showing:
-
-  - [ ] Word
-  - [ ] Word meaning & pronunciation
-  - [ ] Two buttons with relevant icons as per Figma
-
-- [ ] Show **\*No Word Found** message if no words exist for a lesson
-
----
-
-- [ ] Create functionality to highlight the active lesson button
-
----
-
-### 3. Use Different Color on The Active Level Button
-
-- [ ] After Successfully Loading words of a level , diffirentiate the button so user can understand which button is active
-
-### 4. Vocabulary Details
-
-- [ ] Create functionality to open a modal when clicking the details icon
-- [ ] Data will be load from **API-03**
-- [ ] modal will displays:
-  - [ ] Word with pronunciation
-  - [ ] Example sentence
-  - [ ] Synonyms
-  - [ ] A "Complete Learning" button to close the modal
-
-### 5. Handling Invalid Data
-
-- [ ] avoid displaying falsy values like `undefined` or `null`
-- [ ] display relevant words if no data is found
-
-### 6. Loading Spinner
-
-- [ ] Create a loading spinner that will be display when vocabulary is loading from API
-
-### 7. Implement Search Functionality
-
-- [ ] Take a input Box.
-- [ ] on Changing value It will Search word and show in the UI.
-- [ ] If anyone Do search reset active button
-
-### 8. Save Word Feature
-
-- [ ] in the UI of Card add a button `Heart icon`
-- [ ] on Clicking it. Store the Word in the Saved Box
-- [ ] Show Saved words in a Different Section.
-
-### 9. Speak your Vocabularies
-
-- [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Use below function and implement on clicking sound icon
-
-```js
-function pronounceWord(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-EN"; // English
-  window.speechSynthesis.speak(utterance);
-}
-```
-
-For More >> you can explore this implementation 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
-
----
-Bonus : How to create Private Repository for next assignments
-## Test Repo - :  https://classroom.github.com/a/Fgjib-lr
+## Project Live Link : https://english-janala-code-nu.vercel.app/
