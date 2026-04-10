@@ -52,4 +52,4 @@ Follow these steps to set up the project locally:
 git clone past the link(https:// ------)
 
 
-## Project Live Link : https://english-janala-code-nu.vercel.app/
+## Project Live Link : https://english-janala-code-nu.vercel.app
